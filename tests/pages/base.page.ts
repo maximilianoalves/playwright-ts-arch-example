@@ -11,7 +11,7 @@ export class BasePage {
     }
 
     async open() {
-        await this.page.goto(this.utils.getFixtures().baseUrl)        
+        await this.page.goto(this.utils.getFixtures().baseUrl);    
     }
 
 }
