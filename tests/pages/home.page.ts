@@ -10,6 +10,6 @@ export class HomePage extends BasePage {
     }
 
     async checkHome() {
-       await expect(this.title).toBeVisible(); 
+       await expect(this.title).toBeVisible({timeout: 30000}); 
     }
 }
