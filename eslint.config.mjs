@@ -4,6 +4,7 @@ import tseslint from "typescript-eslint";
 
 
 export default [
+  {ignores: ['playwright-report']},
   {files: ["**/*.{js,mjs,cjs,ts}"]},
   {files: ["**/*.js"], languageOptions: {sourceType: "script"}},
   {languageOptions: { globals: globals.browser }},
