@@ -2,7 +2,7 @@
     "baseUrl": "https://front.serverest.dev/",
     "users": {
         "admin": {
-            "username": "admin@admin.com",
+            "email": "admin@admin.com",
             "password": "admin"
         }
     }
