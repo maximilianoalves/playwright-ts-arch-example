@@ -1,4 +1,4 @@
-# Playwright UI arch example
+# Playwright Typescript architecture example
 
 The main objective of this repository is create an architecture to use the Playwright framework and a fast bootstrap for new projects involving UI and API.
 
