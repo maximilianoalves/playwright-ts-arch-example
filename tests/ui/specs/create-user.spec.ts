@@ -5,7 +5,7 @@ import { LoginPage } from "../pages/login.page";
 import { HomePage } from "../pages/home.page";
 import { RegisterPage } from "../pages/register.page";
 
-test.describe('Create an user', () => {
+test.describe('Create an user', { tag: ['@ui'] }, () => {
     test('Try to create an user with success', { tag: ['@register'] }, async ({page}) => {
         const basePage = new BasePage(page);
         const loginPage = new LoginPage(page);
@@ -13,7 +13,7 @@ test.describe('Create an user', () => {
         const homePage = new HomePage(page);
 
         const name = faker.person.firstName();
-        const email = `${name}@testecompany.com`;
+        const email = `${faker.internet.userName({firstName: name})}@testecompany.com`;
         const password = 'testeteste';
 
         await basePage.open();

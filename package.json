@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test-ui": "ENV=production npx playwright test --grep '@ui' --project=chromium",
+    "test-api": "ENV=production npx playwright test --grep '@api' --project=chromium"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
