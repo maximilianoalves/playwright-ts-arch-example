@@ -1,6 +1,6 @@
 # Playwright UI arch example
 
-This has with main objective create an architecture to use the Playwright framework and a fast bootstrap for new projects involving UI and API.
+The main objective of this repository is create an architecture to use the Playwright framework and a fast bootstrap for new projects involving UI and API.
 
 [![Playwright Tests](https://github.com/maximilianoalves/playwright-ts-arch-example/actions/workflows/playwright.yml/badge.svg)](https://github.com/maximilianoalves/playwright-ts-arch-example/actions/workflows/playwright.yml)
 
