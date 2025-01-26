@@ -13,7 +13,7 @@ test.describe('Create an user', () => {
         const homePage = new HomePage(page);
 
         const name = faker.person.firstName();
-        const email = `${name}@testecompany.com`;
+        const email = `${faker.internet.userName({firstName: name})}@testecompany.com`;
         const password = 'testeteste';
 
         await basePage.open();
