@@ -8,7 +8,7 @@ export class Utils {
     }
 
     getFixtures() {
-        const json = JSON.parse(readFileSync(`./tests/fixtures/${this.getEnv()}.json`, 'utf-8'))
+        const json = JSON.parse(readFileSync(`./tests/ui/fixtures/${this.getEnv()}.json`, 'utf-8'))
         return json;
     }
 
